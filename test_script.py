@@ -1,10 +1,10 @@
 import math
 from time import sleep
 
+def calculate_area_cli():
+    radius = float(input("Input radius of circle in cm: "))
+    area = math.pi * radius * radius
 
-radius = float(input("Input radius of circle in cm: "))
-area = math.pi * radius * radius
+    print(f"The area of a cirlce with radius {radius} is {area}")
 
-print(f"The area of a cirlce with radius {radius} is {area}")
-sleep(2)
-print("Goodbye")
+calculate_area_cli()
