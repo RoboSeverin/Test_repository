@@ -22,8 +22,4 @@ while proceed:
     calculate_area_cli()
     proceed = proceed_prompt()
 
-print(f"The area of a cirlce with radius {radius} is {area}")
-sleep(2)
-print("Goodbye")
-
 #End of program
